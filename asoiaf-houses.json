@@ -2,7 +2,7 @@
 	"name": "North",
 	"children": [{
 		"name": "Stark of Winterfell",
-		"sigil": ".img/50px-House_Stark.svg.png",
+		"img": "img/50px-House_Stark.svg.png",
 		"words": "Winter is Coming",
 		"children": [{
 			"name": "Bran the Builder",
@@ -16,7 +16,7 @@
 		}]
 	}, {
 		"name": "Tallhart of Torrhen's Square",
-		"sigil": ".img/50px-House_Tallhart.svg.png",
+		"img": "img/50px-House_Tallhart.svg.png",
 		"words": "Proud and Free",
 		"children": [{
 			"name": "Представник #2"
@@ -28,7 +28,7 @@
 		}]
 	}, {
 		"name": "Напрямок #3",
-		"sigil": "http://spinonweb.com/wp-content/uploads/2015/10/SOCIAL-MEDIA-MARKETIN-G1.png",
+		"img": "http://spinonweb.com/wp-content/uploads/2015/10/SOCIAL-MEDIA-MARKETIN-G1.png",
 		"children": [{
 			"name": "Представник #3",
 			"img": "http://www.logotypes101.com/logos/58/D37CF7C6A8D86ABA261AE9E436A26B63/anonimus.png",
@@ -45,7 +45,7 @@
 
 	}, {
 		"name": "Напрямок #6",
-		"sigil": "http://spinonweb.com/wp-content/uploads/2015/10/SOCIAL-MEDIA-MARKETIN-G1.png",
+		"img": "http://spinonweb.com/wp-content/uploads/2015/10/SOCIAL-MEDIA-MARKETIN-G1.png",
 		"children": [{
 			"name": "Представник #6",
 			"img": "http://www.logotypes101.com/logos/58/D37CF7C6A8D86ABA261AE9E436A26B63/anonimus.png",
