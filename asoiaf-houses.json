@@ -2,7 +2,7 @@
 	"name": "North",
 	"children": [{
 				"name": "Stark of Winterfell",
-				"img": "http://awoiaf.westeros.org/images/thumb/7/7e/House_Stark.svg/50px-House_Stark.svg.png",
+				"img": "img/50px-House_Stark.svg.png",
 				"words": "Winter is Coming",
 				"children": [{
 					"name": "Eddard Stark",
@@ -52,7 +52,7 @@
 					}]
 				}, {
 					"name": "Ashwood",
-					"img": "/img/50px-None.svg.png",
+					"img": "img/50px-None.svg.png",
 					"children": [{
 						"name": "x",
 						"img": ""
@@ -65,7 +65,7 @@
 					}]
 				}, {
 					"name": "Amber",
-					"img": "/img/50px-None.svg.png",
+					"img": "img/50px-None.svg.png",
 					"children": [{
 						"name": "x",
 						"img": ""
@@ -78,7 +78,7 @@
 					}]
 				}, {
 					"name": "Bolton of the Dreadfort",
-					"img": "http://awoiaf.westeros.org/images/thumb/0/0c/House_Bolton.svg/50px-House_Bolton.svg.png",
+					"img": "img/50px-House_Bolton.svg.png",
 					"words": "Our Blades Are Sharp",
 					"children": [{
 						"name": "x",
