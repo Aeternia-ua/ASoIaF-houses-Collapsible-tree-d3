@@ -27,7 +27,7 @@
 
 				}, {
 					"name": "Tallhart of Torrhen's Square",
-					"img": "/img/50px-House_Tallhart.svg.png",
+					"img": "img/50px-House_Tallhart.svg.png",
 					"words": "Proud and Free",
 					"children": [{
 						"name": "x"
@@ -39,7 +39,7 @@
 					}]
 				}, {
 					"name": "Thenn",
-					"img": "/img/50px-House_Thenn.svg.png",
+					"img": "img/50px-House_Thenn.svg.png",
 					"words": "",
 					"children": [{
 						"name": "x"
