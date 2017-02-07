@@ -2,7 +2,7 @@
 	"name": "North",
 	"children": [{
 		"name": "Stark of Winterfell",
-		"img": "/img/50px-House_Stark.svg.png",
+		"img": "http://awoiaf.westeros.org/images/thumb/7/7e/House_Stark.svg/50px-House_Stark.svg.png",
 		"words": "Winter is Coming",
 		"children": [{
 			"name": "Bran the Builder",
@@ -70,7 +70,7 @@
 		}]
 	}, {
 		"name": "Bolton of the Dreadfort",
-		"img": "/img/50px-House_Bolton.svg.png",
+		"img": "http://awoiaf.westeros.org/images/thumb/0/0c/House_Bolton.svg/50px-House_Bolton.svg.png",
 		"words": "Our Blades Are Sharp",
 		"children": [{
 			"name": "Представник #6",
