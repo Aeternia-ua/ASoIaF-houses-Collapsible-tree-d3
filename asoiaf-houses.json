@@ -2,7 +2,7 @@
 	"name": "North",
 	"children": [{
 		"name": "Stark of Winterfell",
-		"img": "img/50px-House_Stark.svg.png",
+		"img": "img//50px-House_Stark.svg.png",
 		"words": "Winter is Coming",
 		"children": [{
 			"name": "Bran the Builder",
@@ -16,7 +16,7 @@
 		}]
 	}, {
 		"name": "Tallhart of Torrhen's Square",
-		"img": "img/50px-House_Tallhart.png",
+		"img": "img//50px-House_Tallhart.png",
 		"words": "Proud and Free",
 		"children": [{
 			"name": "Представник #2"
