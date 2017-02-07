@@ -18,7 +18,7 @@ var svg = d3.select("body").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 //Retrieving JSON data
-d3.json("https://raw.githubusercontent.com/Aeternia-ua/ASoIaF-houses-Collapsible-tree-d3/master/asoiaf-houses.json", function(error, houses) {
+d3.json("https://github.com/Aeternia-ua/ASoIaF-houses-Collapsible-tree-d3/blob/gh-pages/asoiaf-houses.json", function(error, houses) {
   root = houses;
   root.x0 = height / 2;
   root.y0 = 0;
