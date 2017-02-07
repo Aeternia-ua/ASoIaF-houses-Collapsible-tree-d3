@@ -28,10 +28,10 @@
 		}]
 	}, {
 		"name": "Thenn",
-		"img": "http://spinonweb.com/wp-content/uploads/2015/10/SOCIAL-MEDIA-MARKETIN-G1.png",
+		"img": "img/50px-House_Thenn.svg.png",
+		"words": "",
 		"children": [{
-			"name": "Представник #3",
-			"img": "img/50px-House_Thenn.svg.png",
+			"name": "Представник #3"
 		}, {
 			"name": "Студент #3",
 			"img": "http://www.logotypes101.com/logos/58/D37CF7C6A8D86ABA261AE9E436A26B63/anonimus.png",
