@@ -1,156 +1,108 @@
 {
-  "name": "North",
-  "children": [
-    {
-      "name": "Stark of Winterfell",
-      "img": "http://awoiaf.westeros.org/images/thumb/7/7e/House_Stark.svg/50px-House_Stark.svg.png",
-      "words": "Winter is Coming",
-      "children": [
-        {
-          "name": "Bran the Builder",
-          "img": "http://www.logotypes101.com/logos/58/D37CF7C6A8D86ABA261AE9E436A26B63/anonimus.png"
-        },
-        {
-          "children": [
-            {
-              "name": "Eddard Stark",
-              "img": "",
-              "children": [
-                {
-                  "name": "Robb",
-                  "img": ""
-                },
-                {
-                  "name": "Sansa",
-                  "img": ""
-                },
-                {
-                  "name": "Arya",
-                  "img": ""
-                },
-                {
-                  "name": "Brandon",
-                  "img": ""
-                },
-                {
-                  "name": "Rickon",
-                  "img": ""
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Tallhart of Torrhen's Square",
-      "img": "/img/50px-House_Tallhart.svg.png",
-      "words": "Proud and Free",
-      "children": [
-        {
-          "name": "Представник #2"
-        },
-        {
-          "name": "Студент #2",
-          "img": "http://www.logotypes101.com/logos/58/D37CF7C6A8D86ABA261AE9E436A26B63/anonimus.png"
-        },
-        {
-          "name": "Щосьтам #2"
-        }
-      ]
-    },
-    {
-      "name": "Thenn",
-      "img": "/img/50px-House_Thenn.svg.png",
-      "words": "",
-      "children": [
-        {
-          "name": "Представник #3"
-        },
-        {
-          "name": "Студент #3",
-          "img": "http://www.logotypes101.com/logos/58/D37CF7C6A8D86ABA261AE9E436A26B63/anonimus.png",
-          "size": 3938
-        },
-        {
-          "name": "Щосьтам #3",
-          "img": "http://spinonweb.com/wp-content/uploads/2015/10/SOCIAL-MEDIA-MARKETIN-G1.png",
-          "size": 6714
-        }
-      ]
-    },
-    {
-      "name": "Ashwood",
-      "img": "/img/50px-None.svg.png",
-      "children": [
-        {
-          "name": "Представник #6",
-          "img": ""
-        },
-        {
-          "name": "Студент #6",
-          "img": ""
-        },
-        {
-          "name": "Щосьтам #6",
-          "img": ""
-        }
-      ]
-    },
-    {
-      "name": "Amber",
-      "img": "/img/50px-None.svg.png",
-      "children": [
-        {
-          "name": "Представник #6",
-          "img": ""
-        },
-        {
-          "name": "Студент #6",
-          "img": ""
-        },
-        {
-          "name": "Щосьтам #6",
-          "img": ""
-        }
-      ]
-    },
-    {
-      "name": "Bolton of the Dreadfort",
-      "img": "http://awoiaf.westeros.org/images/thumb/0/0c/House_Bolton.svg/50px-House_Bolton.svg.png",
-      "words": "Our Blades Are Sharp",
-      "children": [
-        {
-          "name": "Представник #6",
-          "img": ""
-        },
-        {
-          "name": "Студент #6",
-          "img": ""
-        },
-        {
-          "name": "Щосьтам #6",
-          "img": ""
-        }
-      ]
-    },
-    {
-      "name": "John Doe",
-      "img": "",
-      "children": [
-        {
-          "name": "Представник #6",
-          "img": ""
-        },
-        {
-          "name": "Студент #6",
-          "img": ""
-        },
-        {
-          "name": "Щосьтам #6",
-          "img": ""
-        }
-      ]
-    }
-  ]
-}
+	"name": "North",
+	"children": [{
+				"name": "Stark of Winterfell",
+				"img": "http://awoiaf.westeros.org/images/thumb/7/7e/House_Stark.svg/50px-House_Stark.svg.png",
+				"words": "Winter is Coming",
+				"children": [{
+					"name": "Eddard Stark",
+					"img": "",
+					"children": [{
+						"name": "Robb",
+						"img": ""
+					}, {
+						"name": "Sansa",
+						"img": ""
+					}, {
+						"name": "Arya",
+						"img": ""
+					}, {
+						"name": "Brandon",
+						"img": ""
+					}, {
+						"name": "Rickon",
+						"img": ""
+					}]
+				}]
+
+				}, {
+					"name": "Tallhart of Torrhen's Square",
+					"img": "/img/50px-House_Tallhart.svg.png",
+					"words": "Proud and Free",
+					"children": [{
+						"name": "x"
+					}, {
+						"name": "y",
+						"img": "http://www.logotypes101.com/logos/58/D37CF7C6A8D86ABA261AE9E436A26B63/anonimus.png"
+					}, {
+						"name": "z"
+					}]
+				}, {
+					"name": "Thenn",
+					"img": "/img/50px-House_Thenn.svg.png",
+					"words": "",
+					"children": [{
+						"name": "x"
+					}, {
+						"name": "y",
+						"img": "http://www.logotypes101.com/logos/58/D37CF7C6A8D86ABA261AE9E436A26B63/anonimus.png"
+					}, {
+						"name": "z",
+						"img": "http://spinonweb.com/wp-content/uploads/2015/10/SOCIAL-MEDIA-MARKETIN-G1.png"
+					}]
+				}, {
+					"name": "Ashwood",
+					"img": "/img/50px-None.svg.png",
+					"children": [{
+						"name": "x",
+						"img": ""
+					}, {
+						"name": "y",
+						"img": ""
+					}, {
+						"name": "z",
+						"img": ""
+					}]
+				}, {
+					"name": "Amber",
+					"img": "/img/50px-None.svg.png",
+					"children": [{
+						"name": "x",
+						"img": ""
+					}, {
+						"name": "y",
+						"img": ""
+					}, {
+						"name": "z",
+						"img": ""
+					}]
+				}, {
+					"name": "Bolton of the Dreadfort",
+					"img": "http://awoiaf.westeros.org/images/thumb/0/0c/House_Bolton.svg/50px-House_Bolton.svg.png",
+					"words": "Our Blades Are Sharp",
+					"children": [{
+						"name": "x",
+						"img": ""
+					}, {
+						"name": "y",
+						"img": ""
+					}, {
+						"name": "z",
+						"img": ""
+					}]
+				}, {
+					"name": "John Doe",
+					"img": "",
+					"children": [{
+						"name": "x",
+						"img": ""
+					}, {
+						"name": "y",
+						"img": ""
+					}, {
+						"name": "z",
+						"img": ""
+					}]
+				}
+
+]}
