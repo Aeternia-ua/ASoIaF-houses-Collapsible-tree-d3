@@ -2,7 +2,7 @@
 	"name": "North",
 	"children": [{
 		"name": "Stark of Winterfell",
-		"img": "http://awoiaf.westeros.org/images/thumb/7/7e/House_Stark.svg/50px-House_Stark.svg.png",
+		"img": "img/50px-House_Stark.svg.png",
 		"words": "Winter is Coming",
 		"children": [{
 			"name": "Bran the Builder",
