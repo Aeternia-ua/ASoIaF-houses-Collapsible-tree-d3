@@ -186,7 +186,7 @@
         },
         {
           "name": "Dustin of Barrowton",
-          "img": "img/50px-House_Dustin.svg/png",
+          "img": "img/50px-House_Dustin.svg.png",
           "words": "",
           "children": [
             {
@@ -205,7 +205,7 @@
         },
         {
           "name": "Fisher of the Stony Shore",
-          "img": "img/50px-None.svg/png",
+          "img": "img/50px-None.svg.png",
           "words": "",
           "children": [
             {
@@ -224,7 +224,7 @@
         },
         {
           "name": "Flint of Breakstone Hill",
-          "img": "img/50px-None.svg/png",
+          "img": "img/50px-None.svg.png",
           "words": "",
           "children": [
             {
@@ -319,7 +319,7 @@
         },
         {
           "name": "Greenwood",
-          "img": "img/50px-None.svg",
+          "img": "img/50px-None.svg.png",
           "words": "",
           "children": [
             {
@@ -338,7 +338,7 @@
         },
         {
           "name": "Greystark of the Wolf's Den",
-          "img": "img/50px-None.svg",
+          "img": "img/50px-None.svg.png",
           "words": "",
           "children": [
             {
@@ -357,7 +357,7 @@
         },
         {
           "name": "Holt",
-          "img": "img/50px-None.svg",
+          "img": "img/50px-None.svg.png",
           "words": "",
           "children": [
             {
