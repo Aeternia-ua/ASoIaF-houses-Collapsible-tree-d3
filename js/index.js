@@ -10,7 +10,7 @@ var i = 0,
 
 var tree = d3.layout.tree()
     .size([height, width])
-    .nodeSize ([52, 52]);
+    .nodeSize ([32, 32]);
 
 var diagonal = d3.svg.diagonal()
     .projection(function(d) { return [d.y, d.x]; });
@@ -68,10 +68,10 @@ function update(source) {
    // Append images
 var images = nodeEnter.append("svg:image")
         .attr("xlink:href",  function(d) { return d.img;})
-        .attr("x", function(d) { return -25;})
-        .attr("y", function(d) { return -25;})
-        .attr("height", 50)
-        .attr("width", 50); 
+        .attr("x", function(d) { return -15;})
+        .attr("y", function(d) { return -15;})
+        .attr("height", 30)
+        .attr("width", 30); 
 
   nodeEnter.append("text")
       .attr("x", function(d) { return d.children || d._children ? -10 : 10; })
