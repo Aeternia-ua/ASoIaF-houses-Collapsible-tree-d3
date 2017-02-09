@@ -1,22 +1,27 @@
+var diameter = 1024;
+
 var margin = {top: 20, right: 120, bottom: 20, left: 120},
     width = 960 - margin.right - margin.left,
     height = 800 - margin.top - margin.bottom;
     
 var i = 0,
-    duration = 750,
+    duration = 500,
     root;
 
 var tree = d3.layout.tree()
-    .size([height, width]);
+    .size([height, width])
+    .nodeSize ([52, 52]);
 
 var diagonal = d3.svg.diagonal()
     .projection(function(d) { return [d.y, d.x]; });
 
 var svg = d3.select("body").append("svg")
-    .attr("width", width + margin.right + margin.left)
-    .attr("height", height + margin.top + margin.bottom)
+//Setting canvas size
+    .attr("width", width *2  + margin.right + margin.left)
+    .attr("height", height * 2 + margin.top + margin.bottom)
   .append("g")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+//Setting position of the root node
+     .attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
 //Retrieving JSON data
 d3.json("https://raw.githubusercontent.com/Aeternia-ua/ASoIaF-houses-Collapsible-tree-d3/gh-pages/asoiaf-houses.json", function(error, houses) {
   root = houses;
@@ -141,5 +146,25 @@ function click(d) {
     d.children = d._children;
     d._children = null;
   }
+  //If the node has children, collapse unfolded sibling nodes
+    if(d.parent)
+        {
+            d.parent.children.forEach(function(element){
+                
+        if(d !== element){
+                 collapse(element);
+                
+                }
+            });
+        }
   update(d);
+}
+
+// Collapse all children of root's children before rendering
+function collapse(d) {
+  if (d.children) {
+    d._children = d.children;
+    d._children.forEach(collapse);
+    d.children = null;
+  }
 }
