@@ -80,6 +80,31 @@ var images = nodeEnter.append("svg:image")
       .text(function(d) { return d.name; })
       .style("fill-opacity", 1e-6);
 
+  /*TODO set events on node interaction*/
+  var setEvents = images
+ 
+  //Transition on mouse hover - zoom in
+ .on( 'mouseenter', function() {
+ d3.select( this )
+              .transition()
+              .attr("x", function(d) { return -25;})
+              .attr("y", function(d) { return -25;})
+              .attr("height", 50)
+              .attr("width", 50)
+  }) 
+  
+  .on( 'mouseleave', function() {
+   d3.select( this )
+              .transition()
+              .attr("x", function(d) { return -15;})
+              .attr("y", function(d) { return -15;})
+              .attr("height", 30)
+              .attr("width", 30)
+   })
+
+  .on( 'click', function (d) {
+  });
+  
   // Transition nodes to their new position.
   var nodeUpdate = node.transition()
       .duration(duration)
