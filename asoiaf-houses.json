@@ -12,6 +12,7 @@
             {
               "name": "Eddard Stark",
               "img": "",
+              "spouse": ["Catelyn Stark"],
               "children": [
                 {
                   "name": "Robb",
@@ -1200,7 +1201,12 @@
         {
           "name": "Tully of Riverrun",
           "img": "img/50px-House_Tully.svg.png",
-          "words": "Family, Duty, Honor"
+          "words": "Family, Duty, Honor",
+          "children": [
+            {
+            "name": "Catelyn Stark"
+            }
+            ]
         },
         {
           "name": "Vance of Atranta",
