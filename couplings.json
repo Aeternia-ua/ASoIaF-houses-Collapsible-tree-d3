@@ -1,17 +1,19 @@
 [{
   "name": "Niclas Superlongsurname",
-
+  "class": "man",
+  "textClass": "emphasis",
   "marriages": [{
     "spouse": {
       "name": "Iliana",
-      "class": "woman"
+      "class": "node"
     },
     "children": [{
       "name": "James",
+      "class": "man",
       "marriages": [{
         "spouse": {
           "name": "Alexandra",
-          "class": "woman"
+          "class": "node"
         },
         "children": [{
           "name": "Eric",
