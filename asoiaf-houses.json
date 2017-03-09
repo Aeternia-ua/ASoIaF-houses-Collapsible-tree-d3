@@ -12,7 +12,7 @@
             {
               "name": "Eddard Stark",
               "img": "",
-              "spouse": "Catelyn Stark",
+              "spouse": 50,
               "children": [
                 {
                   "name": "Robb",
