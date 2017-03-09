@@ -1,4 +1,4 @@
 { "couplings":[
-	{"parent": "Eddard Stark","child": "Catelyn Stark"}
+	{"parent": 1,"child": 2}
 	]
 }
