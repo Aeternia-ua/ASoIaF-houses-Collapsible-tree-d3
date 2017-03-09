@@ -12,7 +12,7 @@
             {
               "name": "Eddard Stark",
               "img": "",
-              "spouse": ["Catelyn Stark"],
+              "spouse": [1],
               "children": [
                 {
                   "name": "Robb",
@@ -1204,6 +1204,7 @@
           "words": "Family, Duty, Honor",
           "children": [
             {
+             "id": "1",
             "name": "Catelyn Stark"
             }
             ]
