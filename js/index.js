@@ -2,7 +2,7 @@ var diameter = 1024;
 
 var margin = {top: 20, right: 120, bottom: 20, left: 120},
     width = 960 - margin.right - margin.left,
-    height = 800 - margin.top - margin.bottom;
+    height = 1800 - margin.top - margin.bottom;
     
 var i = 0,
     duration = 500,
@@ -17,27 +17,72 @@ var diagonal = d3.svg.diagonal()
 
 var svg = d3.select("body").append("svg")
 //Setting canvas size
-    .attr("width", width *2  + margin.right + margin.left)
-    .attr("height", height * 2 + margin.top + margin.bottom)
+    .attr("width", width + margin.right + margin.left)
+    .attr("height", height + margin.top + margin.bottom)
   .append("g")
+
 //Setting position of the root node
-     .attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
+     .attr("transform", "translate("   + margin.left  + "," + diameter / 2 + ")");
+
+// TO-DO implement the center on node function
+// Function to center node when clicked/dropped so node doesn't get lost when collapsing/moving with large amount of children.
+
+    function centerNode(source) {
+        scale = zoomListener.scale();
+        x = -source.y0;
+        y = -source.x0;
+        x = x * scale + viewerWidth / 2;
+        y = y * scale + viewerHeight / 2;
+        d3.select('g').transition()
+            .duration(duration)
+            .attr("transform", "translate(" + x + "," + y + ")scale(" + scale + ")");
+        zoomListener.scale(scale);
+        zoomListener.translate([x, y]);
+    }
+
 //Retrieving JSON data
 d3.json("https://raw.githubusercontent.com/Aeternia-ua/ASoIaF-houses-Collapsible-tree-d3/gh-pages/asoiaf-houses.json", function(error, houses) {
   root = houses;
   root.x0 = height / 2;
   root.y0 = 0;
 
-  function collapse(d) {
-    if (d.children) {
-      d._children = d.children;
-      d._children.forEach(collapse);
-      d.children = null;
-    }
-  }
-
-  root.children.forEach(collapse);
+   root.children.forEach(collapse);
   update(root);
+   centerNode(root);
+  // Implementing multiple parents function. CHECK IF WORKS
+  	var couplingParent1 = tree.nodes(root).filter(function(d) {
+            return d['name'] === 'Eddard Stark';
+        })[0];
+	var couplingChild1 = tree.nodes(root).filter(function(d) {
+            return d['name'] === 'Catelyn Stark';
+        })[0];
+
+	multiParents = [{
+                    parent: couplingParent1,
+                    child: couplingChild1
+                }];
+	
+	multiParents.forEach(function(multiPair) {
+            svgGroup.append("path", "g")
+            .attr("class", "additionalParentLink")
+                .attr("d", function() {
+                    var oTarget = {
+                        x: multiPair.parent.x0,
+                        y: multiPair.parent.y0
+                    };
+                    var oSource = {
+                        x: multiPair.child.x0,
+                        y: multiPair.child.y0
+                    };
+                    /*if (multiPair.child.depth === multiPair.couplingParent1.depth) {
+                        return "M" + oSource.y + " " + oSource.x + " L" + (oTarget.y + ((Math.abs((oTarget.x - oSource.x))) * 0.25)) + " " + oTarget.x + " " + oTarget.y + " " + oTarget.x;
+                    }*/
+                    return diagonal({
+                        source: oSource,
+                        target: oTarget
+                    });
+                });
+        });
 });
 
 d3.select(self.frameElement).style("height", "800px");
@@ -51,6 +96,7 @@ function update(source) {
   // Normalize for fixed-depth.
   nodes.forEach(function(d) { d.y = d.depth * 180; });
 
+
   // Update the nodes…
   var node = svg.selectAll("g.node")
       .data(nodes, function(d) { return d.id || (d.id = ++i); });
@@ -63,10 +109,10 @@ function update(source) {
 
   nodeEnter.append("circle")
       .attr("r", 1e-6)
-      .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
+      .style("fill", function(d) { return d._children });
   
    // Append images
-var images = nodeEnter.append("svg:image")
+var images = nodeEnter.append("image")
         .attr("xlink:href",  function(d) { return d.img;})
         .attr("x", function(d) { return -15;})
         .attr("y", function(d) { return -15;})
@@ -79,18 +125,20 @@ var images = nodeEnter.append("svg:image")
       .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
       .text(function(d) { return d.name; })
       .style("fill-opacity", 1e-6);
-
-  /*TODO set events on node interaction*/
+    
+  /*Set events on node interaction*/
   var setEvents = images
- 
-  //Transition on mouse hover - zoom in
+
+  //Transition on mouse hover - zoom in - zoom out  
  .on( 'mouseenter', function() {
  d3.select( this )
               .transition()
               .attr("x", function(d) { return -25;})
               .attr("y", function(d) { return -25;})
               .attr("height", 50)
-              .attr("width", 50)
+              .attr("width", 50)  
+     /*TODO bring image to front on hover*/
+           this.parentElement.appendChild(this);
   }) 
   
   .on( 'mouseleave', function() {
@@ -112,7 +160,7 @@ var images = nodeEnter.append("svg:image")
 
   nodeUpdate.select("circle")
       .attr("r", 4.5)
-      .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
+      .style("fill", function(d) { return d._children ? "#ffd6d6" : "#b20707"; });
 
   nodeUpdate.select("text")
       .style("fill-opacity", 1);
@@ -124,6 +172,9 @@ var images = nodeEnter.append("svg:image")
       .remove();
 
   nodeExit.select("circle")
+      .attr("r", 1e-6);
+  
+   nodeExit.select("image")
       .attr("r", 1e-6);
 
   nodeExit.select("text")
@@ -161,6 +212,13 @@ var images = nodeEnter.append("svg:image")
     d.y0 = d.y;
   });
 }
+    // Sort the tree nodes alphabetically
+    function sortTree() {
+        tree.sort(function(a, b) {
+            return b.name.toLowerCase() < a.name.toLowerCase() ? 1 : -1;
+        });
+    }
+    sortTree();
 
 // Toggle children on click.
 function click(d) {
@@ -174,16 +232,34 @@ function click(d) {
   //If the node has children, collapse unfolded sibling nodes
     if(d.parent)
         {
-            d.parent.children.forEach(function(element){
-                
+            d.parent.children.forEach(function(element){             
         if(d !== element){
                  collapse(element);
                 
                 }
             });
         }
+//TODO If the node has spouse, expand spouse branch
+  
+    if(d.hasOwnProperty('spouse'))
+        {
+ // Get spouse id. TODO - getting id by name value
+//var spouse = Number(d.spouse);
+       //   .attr("id", function(d) { return d.name; })
+       //   expand(d.id = Number(d.spouse));
+          expand(d.id = d.spouse);
+        }
+  
   update(d);
 }
+
+function expand(d) {
+                        if (d._children) {
+                            d.children = d._children;
+                            d.children.forEach(expand);
+                            d._children = null;
+                        }
+                      }
 
 // Collapse all children of root's children before rendering
 function collapse(d) {
@@ -193,3 +269,6 @@ function collapse(d) {
     d.children = null;
   }
 }
+
+
+	
