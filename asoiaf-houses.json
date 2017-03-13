@@ -24,57 +24,19 @@
           "name": "Tallhart of Torrhen's Square",
 		  "id": 13,
           "img": "img/50px-House_Tallhart.svg.png",
-          "words": "Proud and Free",
-          "children": [
-            {
-              "name": "x"
-            },
-            {
-              "name": "y",
-              "img": "http://www.logotypes101.com/logos/58/D37CF7C6A8D86ABA261AE9E436A26B63/anonimus.png"
-            },
-            {
-              "name": "z"
-            }
-          ]
+          "words": "Proud and Free"
         },
         {
           "name": "Thenn",
 		  "id": 14,
           "img": "img/50px-House_Thenn.svg.png",
-          "words": "",
-          "children": [
-            {
-              "name": "x"
-            },
-            {
-              "name": "y",
-              "img": "http://www.logotypes101.com/logos/58/D37CF7C6A8D86ABA261AE9E436A26B63/anonimus.png"
-            },
-            {
-              "name": "z",
-              "img": "http://spinonweb.com/wp-content/uploads/2015/10/SOCIAL-MEDIA-MARKETIN-G1.png"
-            }
-          ]
+          "words": ""
+         
         },
         {
           "name": "Ashwood",
 		  "id": 15,
-          "img": "img/50px-None.svg.png",
-          "children": [
-            {
-              "name": "x",
-              "img": ""
-            },
-            {
-              "name": "y",
-              "img": ""
-            },
-            {
-              "name": "z",
-              "img": ""
-            }
-          ]
+          "img": "img/50px-None.svg.png"
         },
         {
           "name": "Amber",
@@ -99,201 +61,61 @@
           "name": "Bolton of the Dreadfort",
 		  "id": 17,
           "img": "img/50px-House_Bolton.svg.png",
-          "words": "Our Blades Are Sharp",
-          "children": [
-            {
-              "name": "x",
-              "img": ""
-            },
-            {
-              "name": "y",
-              "img": ""
-            },
-            {
-              "name": "z",
-              "img": ""
-            }
-          ]
+          "words": "Our Blades Are Sharp"
         },
         {
           "name": "Cassel",
 		  "id": 18,
           "img": "img/50px-House_Cassel.svg.png",
-          "words": "",
-          "children": [
-            {
-              "name": "x",
-              "img": ""
-            },
-            {
-              "name": "y",
-              "img": ""
-            },
-            {
-              "name": "z",
-              "img": ""
-            }
-          ]
+          "words": ""
         },
         {
           "name": "Cerwyn of Cerwyn Castle",
 		  "id": 19,
           "img": "img/50px-House_Cerwyn.svg.png",
-          "words": "Honed and Ready",
-          "children": [
-            {
-              "name": "x",
-              "img": ""
-            },
-            {
-              "name": "y",
-              "img": ""
-            },
-            {
-              "name": "z",
-              "img": ""
-            }
-          ]
+          "words": "Honed and Ready"
         },
         {
           "name": "Condon",
 		  "id": 20,
           "img": "img/50px-House_Condon.svg.png",
-          "words": "",
-          "children": [
-            {
-              "name": "x",
-              "img": ""
-            },
-            {
-              "name": "y",
-              "img": ""
-            },
-            {
-              "name": "z",
-              "img": ""
-            }
-          ]
+          "words": ""
         },
         {
           "name": "Dustin of Barrowton",
 		  "id": 21,
-          "img": "img/50px-House_Dustin.svg/png",
-          "words": "",
-          "children": [
-            {
-              "name": "x",
-              "img": ""
-            },
-            {
-              "name": "y",
-              "img": ""
-            },
-            {
-              "name": "z",
-              "img": ""
-            }
-          ]
+          "img": "img/50px-House_Dustin.svg.png",
+          "words": ""
         },
         {
           "name": "Fisher of the Stony Shore",
 		  "id": 22,
-          "img": "img/50px-None.svg/png",
-          "words": "",
-          "children": [
-            {
-              "name": "x",
-              "img": ""
-            },
-            {
-              "name": "y",
-              "img": ""
-            },
-            {
-              "name": "z",
-              "img": ""
-            }
-          ]
+          "img": "img/50px-None.svg.png",
+          "words": ""
         },
         {
           "name": "Flint of Breakstone Hill",
 		  "id": 23,
-          "img": "img/50px-None.svg/png",
-          "words": "",
-          "children": [
-            {
-              "name": "x",
-              "img": ""
-            },
-            {
-              "name": "y",
-              "img": ""
-            },
-            {
-              "name": "z",
-              "img": ""
-            }
-          ]
+          "img": "img/50px-None.svg.png",
+          "words": ""
         },
         {
           "name": "Flint of Flint's Finger",
 		  "id": 24,
           "img": "img/50px-House_Flint_(Flint's_Finger).svg.png",
-          "words": "",
-          "children": [
-            {
-              "name": "x",
-              "img": ""
-            },
-            {
-              "name": "y",
-              "img": ""
-            },
-            {
-              "name": "z",
-              "img": ""
-            }
-          ]
+          "words": ""
         },
         {
           "name": "Flint of Widow's Watch",
 		  "id": 25,
-          "img": "img/50px-House_Flint_(Widow's_Watch).svg",
-          "words": "Ever Vigilant",
-          "children": [
-            {
-              "name": "x",
-              "img": ""
-            },
-            {
-              "name": "y",
-              "img": ""
-            },
-            {
-              "name": "z",
-              "img": ""
-            }
-          ]
+          "img": "img/50px-House_Flint_(Widow's_Watch).svg.png",
+          "words": "Ever Vigilant"
         },
         {
           "name": "Frost",
 		  "id": 26,
           "img": "img/50px-None.svg.png",
-          "words": "",
-          "children": [
-            {
-              "name": "x",
-              "img": ""
-            },
-            {
-              "name": "y",
-              "img": ""
-            },
-            {
-              "name": "z",
-              "img": ""
-            }
-          ]
+          "words": ""
         },
         {
           "name": "Glover of Deepwood Motte",
@@ -303,14 +125,12 @@
           "children": [
             {
               "name": "x",
+			  "id": 397,
               "img": ""
             },
             {
               "name": "y",
-              "img": ""
-            },
-            {
-              "name": "z",
+			  "id": 398,
               "img": ""
             }
           ]
@@ -319,181 +139,55 @@
           "name": "Greenwood",
 		  "id": 28,
           "img": "img/50px-None.svg.png",
-          "words": "",
-          "children": [
-            {
-              "name": "x",
-              "img": ""
-            },
-            {
-              "name": "y",
-              "img": ""
-            },
-            {
-              "name": "z",
-              "img": ""
-            }
-          ]
+          "words": ""
         },
         {
           "name": "Greystark of the Wolf's Den",
 		  "id": 29,
           "img": "img/50px-None.svg.png",
-          "words": "",
-          "children": [
-            {
-              "name": "x",
-              "img": ""
-            },
-            {
-              "name": "y",
-              "img": ""
-            },
-            {
-              "name": "z",
-              "img": ""
-            }
-          ]
+          "words": ""
         },
         {
           "name": "Holt",
 		  "id": 30,
           "img": "img/50px-None.svg.png",
-          "words": "",
-          "children": [
-            {
-              "name": "x",
-              "img": ""
-            },
-            {
-              "name": "y",
-              "img": ""
-            },
-            {
-              "name": "z",
-              "img": ""
-            }
-          ]
+          "words": ""
         },
         {
           "name": "Hornwood of Hornwood",
 		  "id": 31,
           "img": "img/50px-House_Hornwood.svg.png",
-          "words": "Righteous in Wrath",
-          "children": [
-            {
-              "name": "x",
-              "img": ""
-            },
-            {
-              "name": "y",
-              "img": ""
-            },
-            {
-              "name": "z",
-              "img": ""
-            }
-          ]
+          "words": "Righteous in Wrath"
         },
         {
           "name": "Ironsmith",
 		  "id": 32,
           "img": "img/50px-House_Ironsmith.svg.png",
-          "words": "",
-          "children": [
-            {
-              "name": "x",
-              "img": ""
-            },
-            {
-              "name": "y",
-              "img": ""
-            },
-            {
-              "name": "z",
-              "img": ""
-            }
-          ]
+          "words": ""
         },
         {
           "name": "Karstark of Karhold",
 		  "id": 33,
           "img": "img/50px-House_Karstark.svg.png",
-          "words": "The Sun of Winter",
-          "children": [
-            {
-              "name": "x",
-              "img": ""
-            },
-            {
-              "name": "y",
-              "img": ""
-            },
-            {
-              "name": "z",
-              "img": ""
-            }
-          ]
+          "words": "The Sun of Winter"
         },
         {
           "name": "Lake",
 		  "id": 34,
           "img": "img/50px-House_Lake_(North).svg.png",
-          "words": "",
-          "children": [
-            {
-              "name": "x",
-              "img": ""
-            },
-            {
-              "name": "y",
-              "img": ""
-            },
-            {
-              "name": "z",
-              "img": ""
-            }
-          ]
+          "words": ""
         },
         {
           "name": "Lightfoot",
 		  "id": 35,
           "img": "img/50px-House_Lightfoot.svg.png",
-          "words": "",
-          "children": [
-            {
-              "name": "x",
-              "img": ""
-            },
-            {
-              "name": "y",
-              "img": ""
-            },
-            {
-              "name": "z",
-              "img": ""
-            }
-          ]
+          "words": ""
         },
         {
           "name": "Locke of Oldcastle",
 		  "id": 36,
           "img": "img/50px-House_Locke.svg.png",
-          "words": "",
-          "children": [
-            {
-              "name": "x",
-              "img": ""
-            },
-            {
-              "name": "y",
-              "img": ""
-            },
-            {
-              "name": "z",
-              "img": ""
-            }
-          ]
+          "words": ""
         },
         {
           "name": "Long",
@@ -501,18 +195,7 @@
           "img": "img/50px-None.svg.png",
           "words": "",
           "children": [
-            {
-              "name": "x",
-              "img": ""
-            },
-            {
-              "name": "y",
-              "img": ""
-            },
-            {
-              "name": "z",
-              "img": ""
-            }
+            
           ]
         },
         {
@@ -521,18 +204,7 @@
           "img": "img/50px-House_Marsh.svg.png",
           "words": "",
           "children": [
-            {
-              "name": "x",
-              "img": ""
-            },
-            {
-              "name": "y",
-              "img": ""
-            },
-            {
-              "name": "z",
-              "img": ""
-            }
+            
           ]
         },
         {
@@ -541,18 +213,7 @@
           "img": "img/50px-House_Mormont.svg.png",
           "words": "Here We Stand",
           "children": [
-            {
-              "name": "x",
-              "img": ""
-            },
-            {
-              "name": "y",
-              "img": ""
-            },
-            {
-              "name": "z",
-              "img": ""
-            }
+            
           ]
         },
         {
@@ -561,18 +222,7 @@
           "img": "img/50px-House_Mollen.svg.png",
           "words": "",
           "children": [
-            {
-              "name": "x",
-              "img": ""
-            },
-            {
-              "name": "y",
-              "img": ""
-            },
-            {
-              "name": "z",
-              "img": ""
-            }
+           
           ]
         },
         {
@@ -581,18 +231,7 @@
           "img": "img/50px-House_Moss.svg.png",
           "words": "",
           "children": [
-            {
-              "name": "x",
-              "img": ""
-            },
-            {
-              "name": "y",
-              "img": ""
-            },
-            {
-              "name": "z",
-              "img": ""
-            }
+           
           ]
         },
         {
@@ -601,18 +240,7 @@
           "img": "img/50px-House_Overton.svg.png",
           "words": "",
           "children": [
-            {
-              "name": "x",
-              "img": ""
-            },
-            {
-              "name": "y",
-              "img": ""
-            },
-            {
-              "name": "z",
-              "img": ""
-            }
+            
           ]
         },
         {
@@ -621,18 +249,7 @@
           "img": "img/50px-House_Poole.svg.png",
           "words": "",
           "children": [
-            {
-              "name": "x",
-              "img": ""
-            },
-            {
-              "name": "y",
-              "img": ""
-            },
-            {
-              "name": "z",
-              "img": ""
-            }
+           
           ]
         },
         {
@@ -641,18 +258,7 @@
           "img": "img/50px-None.svg.png",
           "words": "",
           "children": [
-            {
-              "name": "x",
-              "img": ""
-            },
-            {
-              "name": "y",
-              "img": ""
-            },
-            {
-              "name": "z",
-              "img": ""
-            }
+            
           ]
         },
         {
@@ -661,18 +267,7 @@
           "img": "img/50px-None.svg.png",
           "words": "",
           "children": [
-            {
-              "name": "x",
-              "img": ""
-            },
-            {
-              "name": "y",
-              "img": ""
-            },
-            {
-              "name": "z",
-              "img": ""
-            }
+           
           ]
         },
         {
@@ -681,18 +276,7 @@
           "img": "img/50px-House_Ryswell.svg.png",
           "words": "",
           "children": [
-            {
-              "name": "x",
-              "img": ""
-            },
-            {
-              "name": "y",
-              "img": ""
-            },
-            {
-              "name": "z",
-              "img": ""
-            }
+           
           ]
         },
         {
@@ -701,18 +285,7 @@
           "img": "img/50px-House_Slate.svg.png",
           "words": "",
           "children": [
-            {
-              "name": "x",
-              "img": ""
-            },
-            {
-              "name": "y",
-              "img": ""
-            },
-            {
-              "name": "z",
-              "img": ""
-            }
+           
           ]
         },
         {
@@ -721,18 +294,7 @@
           "img": "img/50px-House_Stout.svg.png",
           "words": "",
           "children": [
-            {
-              "name": "x",
-              "img": ""
-            },
-            {
-              "name": "y",
-              "img": ""
-            },
-            {
-              "name": "z",
-              "img": ""
-            }
+            
           ]
         },
         {
@@ -741,18 +303,7 @@
           "img": "img/50px-None.svg.png",
           "words": "",
           "children": [
-            {
-              "name": "x",
-              "img": ""
-            },
-            {
-              "name": "y",
-              "img": ""
-            },
-            {
-              "name": "z",
-              "img": ""
-            }
+          
           ]
         },
         {
@@ -761,18 +312,7 @@
           "img": "img/50px-Umbercrest.png",
           "words": "",
           "children": [
-            {
-              "name": "x",
-              "img": ""
-            },
-            {
-              "name": "y",
-              "img": ""
-            },
-            {
-              "name": "z",
-              "img": ""
-            }
+           
           ]
         },
         {
@@ -781,18 +321,7 @@
           "img": "img/50px-House_Waterman.svg.png",
           "words": "",
           "children": [
-            {
-              "name": "x",
-              "img": ""
-            },
-            {
-              "name": "y",
-              "img": ""
-            },
-            {
-              "name": "z",
-              "img": ""
-            }
+          
           ]
         },
         {
@@ -801,18 +330,7 @@
           "img": "img/50px-House_Wells_(North).svg.png",
           "words": "",
           "children": [
-            {
-              "name": "x",
-              "img": ""
-            },
-            {
-              "name": "y",
-              "img": ""
-            },
-            {
-              "name": "z",
-              "img": ""
-            }
+           
           ]
         },
         {
@@ -1583,7 +1101,7 @@
         {
           "name": "Myatt",
 		  "id": 145,
-          "img": "img/50px-House_Myatt.png",
+          "img": "img/50px-House_Myatt.svg.png",
           "words": ""
         },
         {
@@ -2308,7 +1826,7 @@
         },
         {
           "name": "Stokeworth of Stokeworth",
-		   "id": 263,
+		   "id": 396,
           "img": "img/50px-House_Stokeworth.svg.png",
           "words": "Proud to Be Faithful"
         },
