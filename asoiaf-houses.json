@@ -121,19 +121,7 @@
           "name": "Glover of Deepwood Motte",
 		  "id": 27,
           "img": "img/50px-House_Glover.svg.png",
-          "words": "",
-          "children": [
-            {
-              "name": "x",
-			  "id": 397,
-              "img": ""
-            },
-            {
-              "name": "y",
-			  "id": 398,
-              "img": ""
-            }
-          ]
+          "words": ""
         },
         {
           "name": "Greenwood",
@@ -193,145 +181,97 @@
           "name": "Long",
 		  "id": 37,
           "img": "img/50px-None.svg.png",
-          "words": "",
-          "children": [
-            
-          ]
+          "words": ""
         },
         {
           "name": "Marsh",
 		  "id": 38,
           "img": "img/50px-House_Marsh.svg.png",
-          "words": "",
-          "children": [
-            
-          ]
+          "words": ""
         },
         {
           "name": "Mormont of Bear Island",
 		  "id": 39,
           "img": "img/50px-House_Mormont.svg.png",
-          "words": "Here We Stand",
-          "children": [
-            
-          ]
+          "words": "Here We Stand"
         },
         {
           "name": "Mollen",
 		  "id": 40,
           "img": "img/50px-House_Mollen.svg.png",
-          "words": "",
-          "children": [
-           
-          ]
+          "words": ""
         },
         {
           "name": "Moss",
 		  "id": 41,
           "img": "img/50px-House_Moss.svg.png",
-          "words": "",
-          "children": [
-           
-          ]
+          "words": ""
         },
         {
           "name": "Overton",
 		  "id": 42,
           "img": "img/50px-House_Overton.svg.png",
-          "words": "",
-          "children": [
-            
-          ]
+          "words": ""
         },
         {
           "name": "Poole",
 		  "id": 43,
           "img": "img/50px-House_Poole.svg.png",
-          "words": "",
-          "children": [
-           
-          ]
+          "words": ""
         },
         {
           "name": "Redbeard",
 		  "id": 44,
           "img": "img/50px-None.svg.png",
-          "words": "",
-          "children": [
-            
-          ]
+          "words": ""
         },
         {
           "name": "Ryder of the Rills",
 		  "id": 45,
           "img": "img/50px-None.svg.png",
-          "words": "",
-          "children": [
-           
-          ]
+          "words": ""
         },
         {
           "name": "Ryswell of the Rills",
 		  "id": 46,
           "img": "img/50px-House_Ryswell.svg.png",
-          "words": "",
-          "children": [
-           
-          ]
+          "words": ""
         },
         {
           "name": "Slate of Blackpool",
 		  "id": 47,
           "img": "img/50px-House_Slate.svg.png",
-          "words": "",
-          "children": [
-           
-          ]
+          "words": ""
         },
         {
           "name": "Stout of Goldgrass",
 		  "id": 48,
           "img": "img/50px-House_Stout.svg.png",
-          "words": "",
-          "children": [
-            
-          ]
+          "words": ""
         },
         {
           "name": "Towers",
 		  "id": 49,
           "img": "img/50px-None.svg.png",
-          "words": "",
-          "children": [
-          
-          ]
+          "words": ""
         },
         {
           "name": "Umber of the Last Hearth",
 		  "id": 50,
           "img": "img/50px-Umbercrest.png",
-          "words": "",
-          "children": [
-           
-          ]
+          "words": ""
         },
         {
           "name": "Waterman",
 		  "id": 51,
           "img": "img/50px-House_Waterman.svg.png",
-          "words": "",
-          "children": [
-          
-          ]
+          "words": ""
         },
         {
           "name": "Wells",
 		  "id": 52,
           "img": "img/50px-House_Wells_(North).svg.png",
-          "words": "",
-          "children": [
-           
-          ]
+          "words": ""
         },
         {
           "name": "Whitehill of Highpoint",
