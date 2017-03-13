@@ -16,7 +16,11 @@
               "name": "Eddard Stark",
 			  "id": 362,
               "img": "",
-              "spouse": 104
+              "spouse": 104,
+			  "children": [
+            { "id": 104
+			}
+			]
             }
           ]
         },
