@@ -16,7 +16,7 @@
               "name": "Eddard Stark",
 			  "id": 362,
               "img": "",
-              "spouse": 104
+              "spouse": "riv104"
             }
           ]
         },
@@ -760,7 +760,7 @@
           "words": "Family, Duty, Honor",
           "children": [
             {
-              "id": 104,
+              "id": "riv104",
               "name": "Catelyn Stark",
 			  "children": [
                 {
