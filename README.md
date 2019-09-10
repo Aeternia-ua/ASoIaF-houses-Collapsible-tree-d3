@@ -1,2 +1,2 @@
-A Song of Ice and Fire houses: Collapsible hierarchial tree in d3.
-Demo: https://aeternia-ua.github.io/ASoIaF-houses-Collapsible-tree-d3/
+d3 collapsible hierarchical tree for A Song of Ice and Fire houses.
+# [Demo](https://aeternia-ua.github.io/ASoIaF-houses-Collapsible-tree-d3/)
